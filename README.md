@@ -85,6 +85,6 @@
 
 ## 测试
 
-点击下面的链接在线测试上述属性或方法的使用情况：
+在线测试上述属性或方法的使用情况：
 
 [https://github.com/springlong/jquery-browser/blob/master/demo/demo.html](http://htmlpreview.github.io/?https://github.com/springlong/jquery-browser/blob/master/demo/demo.html)
