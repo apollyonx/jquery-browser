@@ -13,27 +13,32 @@ $.isIE6
 ```
 
 浏览器是否为IE6。（返回类型：*Boolean*）
-
+<br>
+<br>
 
 ```js
 $.isLessIE9
 ```
 
 浏览器是否为IE，且低于9.0版本。（返回类型：*Boolean*）
+<br>
+<br>
 
 ```js
 $.isMobile
 ```
 
 客户端是否为移动设备。（返回类型：*Boolean*）
-
+<br>
+<br>
 
 ```js
 $.canFlash()
 ```
 
 浏览器是否支持Flash插件。（返回类型：*Boolean*）
-
+<br>
+<br>
 
 ```js
 $.setHome()
@@ -44,7 +49,8 @@ $.setHome()
 该方法目前仅针对IE浏览器有效，但必须是一个完整的网页地址才能正常触发设为首页操作。
 
 如果该方法没有执行成功，则提示用户需要手动添加首页。
-
+<br>
+<br>
 
 ```js
 $.addFavorite()
