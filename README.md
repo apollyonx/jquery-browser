@@ -111,4 +111,4 @@ $.addFavorite()
 
 在线测试上述属性或方法的使用情况：
 
-[https://github.com/springlong/jquery-browser/blob/master/demo/demo.html](http://htmlpreview.github.io/?https://github.com/springlong/jquery-browser/blob/master/demo/demo.html)
+[http://demo.fedlife.cn/jquery/jquery-browser/demo.html](http://demo.fedlife.cn/jquery/jquery-browser/demo.html)
