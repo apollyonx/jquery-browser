@@ -8,23 +8,33 @@
 
 ## 使用
 
-### `$.isIE6`
+```js
+$.isIE6
+```
 
 浏览器是否为IE6。（返回类型：*Boolean*）
 
-### `$.isLessIE9`
+```js
+$.isLessIE9
+```
 
 浏览器是否为IE，且低于9.0版本。（返回类型：*Boolean*）
 
-### `$.isMobile`
+```js
+$.isMobile
+```
 
 客户端是否为移动设备。（返回类型：*Boolean*）
 
-### `$.canFlash()`
+```js
+$.canFlash()
+```
 
 浏览器是否支持Flash插件。（返回类型：*Boolean*）
 
-### `$.setHome()`
+```js
+$.setHome()
+```
 
 将当前页面设为浏览器的首页。（返回类型：*undefined*）
 
@@ -32,7 +42,9 @@
 
 如果该方法没有执行成功，则提示用户需要手动添加首页。
 
-### `$.addFavorite()`
+```js
+$.addFavorite()
+```
 
 将当前页面加入浏览器收藏夹。（返回类型：*undefined*）
 
