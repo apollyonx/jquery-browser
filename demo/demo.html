@@ -70,8 +70,13 @@
         $("#browserIsMobile").html($.isMobile + "");
 
         $("#browserCanFlash").html($.canFlash() + "");
-        $("#setHome").click($.setHome);
-        $("#addFavorite").click($.addFavorite);
+        $("#setHome").on("click", function(){
+            console.info('did once');
+            $.setHome();
+        });
+        $("#addFavorite").on("click", function(){
+            $.addFavorite();
+        });
     });
 </script>
 </body>
