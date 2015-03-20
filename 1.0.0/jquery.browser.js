@@ -108,11 +108,11 @@
      *          创建后的标签默认为行内元素，所以还需要通过样式将块状元素的display属性设置为block才行。
      *=================================================================================*/
     if(jQuery.isLessIE9){
-        tags = "header,footer,aside,article,section,hgroup,nav,menu,canvas,output,dialog,datalist,details,figure,figcaption,audio,video,progress,mark,time".split(",");
-        for(i = 0, len = tags.length; i < len; i++){
+        var tags = "header,footer,aside,article,section,hgroup,main,nav,menu,canvas,details,summary,figure,figcaption,audio,canvas,progress,video,output,dialog,datalist,mark,time".split(",");
+        for(var i = 0, len = tags.length; i < len; i++){
             document.createElement(tags[i]);
         }
-        document.write('<style id="jQuery_selectorStyle">* html{background-image:url(about:blank);}header,footer,aside,article,section,hgroup,nav,menu,canvas,details,figure,figcaption,audio,video{display:block;}</style>')
+        $("head").append('<style id="jQuery_selectorStyle">* html{background-image:url(about:blank);}header,footer,aside,article,section,hgroup,main,nav,menu,canvas,details,summary,figure,figcaption{display:block;}audio,canvas,progress,video{display:inline-block;vertical-align:baseline;}</style>');
     }
 
     //解决IE6浏览器不缓存背景图片的Bug
