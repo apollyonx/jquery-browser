@@ -111,4 +111,4 @@ $.addFavorite()
 
 在线测试上述属性或方法的使用情况：
 
-[http://demo.fedlife.cn/jquery/jquery-browser/demo.html](http://demo.fedlife.cn/jquery/jquery-browser/demo.html)
+[http://www.fedlife.cn/demo/jquery/jquery-browser/demo.html](http://www.fedlife.cn/demo/jquery/jquery-browser/demo.html)
